@@ -1,7 +1,7 @@
 import React from "react";
 import Block from "dxc-flex";
-import Main from "./Main/Main";
-export default class IndexPage extends React.Component {
+import Main from "./components/Main/Main";
+export default class App extends React.Component {
   render() {
     return (
       <div style={{ padding: "30px 15px" }}>
